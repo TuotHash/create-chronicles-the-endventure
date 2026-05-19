@@ -15,6 +15,6 @@ chickenNestRange = 8
 #The maximum amount of animals (per type) until the feeding trough stops feeding.
 feedingTroughMaxAnimals = 24
 #List of default presets to disable.
-disabledDefaultPresets = ["create:fertilizer", "minecraft:bone_meal", "biomeswevegone:mushrooms", "minecraft:seeds", "biomeswevegone:seeds", "farmersdelight:seeds", "supplementaries:seeds", "culturaldelights:seeds", "minecraft:saplings", "biomeswevegone:saplings", "culturaldelights:saplings"]
+disabledDefaultPresets = ["create:fertilizer", "minecraft:bone_meal", "biomeswevegone:mushrooms", "minecraft:seeds", "biomeswevegone:seeds", "farmersdelight:seeds", "supplementaries:seeds", "culturaldelights:seeds", "minecraft:saplings", "biomeswevegone:saplings", "quark:saplings","culturaldelights:saplings"]
 #The chance to get a bonus crop when using Green Fertilizer.
 fertilizerBonusCropChance = 1.0
