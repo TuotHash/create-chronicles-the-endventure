@@ -209,14 +209,14 @@
         },
         {
           "type": "minecraft:item",
-          "name": "culturaldelights:pickle",
+          "name": "hazennstuff:deus_essence",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 20
+              "count": 2
             }
           ],
-          "weight": 30
+          "weight": 19
         },
         {
           "type": "minecraft:item",

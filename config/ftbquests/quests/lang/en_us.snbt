@@ -1,7 +1,7 @@
 {
 	chapter.00BD5759F8E2525F.title: "&l&eOrder of Engineers&r&r"
 	chapter.09B56D111668F538.title: "&6&nGetting Started!"
-	chapter.1114C1AB6A2F68FA.title: "&eHazen n Stuff"
+	chapter.1114C1AB6A2F68FA.title: "&6Hazen n Stuff"
 	chapter.178BB414E2F55B72.title: "&aElectricity"
 	chapter.19BE083ACF488E0F.title: "&6Iron's Spells 'n Spellbooks&r"
 	chapter.1B9B51E90A5A29A0.title: "&aMolten Vents and Renewables&r"
@@ -1149,6 +1149,7 @@
 	quest.1F4AE081014800B4.quest_desc: ["It was lost by a demon in the battle between the Aether and the Nether"]
 	quest.1F4AE081014800B4.quest_subtitle: "Found in Nether Fortresses"
 	quest.1F4AE081014800B4.title: "Nether Eye"
+	quest.1F5A59BD5FA2EA2A.quest_subtitle: "&aThere are a lot of powerful items, armour, and spells to discover. Just type &n&d@haze&r&r in JEI.&r"
 	quest.1F6BC8C2A5B8F9B2.quest_desc: [
 		"&c❤&r&a Thank you for playing The Endventure&r &c❤&r, a cozy and creative journey built around exploration, light automation, and flexible progression."
 		""
@@ -3434,6 +3435,7 @@
 	quest.5525E70F7FBDBD92.title: "&6Your feedback is important :)"
 	quest.5534C553D15CD96B.quest_desc: ["The &6Item Drain&r has the ability to extract liquid from a container and temporarily store it until it is piped out into another container."]
 	quest.5590204A473913AC.quest_subtitle: "Automatically smelts mined ores"
+	quest.561A753B404A8C0A.quest_desc: ["Use powder snow"]
 	quest.561A753B404A8C0A.quest_subtitle: "Not repeatable"
 	quest.56487ACFC2360FE0.title: "&6Paladin Outfit"
 	quest.564BA670DCB12592.quest_subtitle: "right click into a tamed familiar to boost his spell power permanently"
@@ -4977,7 +4979,6 @@
 		""
 		"The full list of compatible outputs can be viewed in JEI. (Press U)"
 	]
-	quest.7BAE050F8E223E6C.title: "&6Collect All Hazen n Stuff"
 	quest.7BE7F9FD76F84BDD.quest_desc: [
 		"&6Cable Facades&r lets you visually hide nearly any cable or pipe from any mod."
 		""
