@@ -30,6 +30,9 @@ ServerEvents.tags('block', event => {
 })
 
 ServerEvents.tags('item', event => {
+    event.remove('c:ingots/steel', 'hazennstuff:steel_ingot');
+    event.remove('c:ingots/bronze', 'createmechanisms:bronze');
+    
     event.add("ftbchunks:right_click_whitelist", [
         'create:shopping_list',
     ]);  

@@ -5,7 +5,6 @@
 	chapter.178BB414E2F55B72.title: "&aElectricity"
 	chapter.19BE083ACF488E0F.title: "&6Iron's Spells 'n Spellbooks&r"
 	chapter.1B9B51E90A5A29A0.title: "&aMolten Vents and Renewables&r"
-	chapter.200DC5467E72813C.title: "&dImmersive Aircraft"
 	chapter.2385B4F2FA029016.title: "&6Alshanex's Familiars&r"
 	chapter.2A786FFD5532B025.title: "&aTeleporters"
 	chapter.2CF7FF0BE3628E3D.title: "&eAlshanex's Familiars&r"
@@ -505,6 +504,7 @@
 	quest.0996F6AD6839B221.quest_desc: ["This handy gadget helps you find new fish, display your catches and more."]
 	quest.09A1D7358EAB6139.quest_subtitle: "Can be used to store familiars and let wander freely"
 	quest.09A89AA4D2362D88.quest_desc: ["Acts the same as a &6Blaze Burner&r but uses &c&lHeat&r&r instead of &2Fuel&r."]
+	quest.09AB2906A59DF966.quest_subtitle: "Can be obtained in the Origin Island. It's used like a Staff"
 	quest.09C33BB3342632B4.quest_desc: [
 		"In &eThe End&r, you'll find the final boss of Vanilla Minecraft: The &5Ender Dragon&r."
 		""
@@ -1892,19 +1892,6 @@
 		"{ \"text\": \"☞ Click here to learn more\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"260F19B468957BCD\" } }"
 	]
 	quest.313B26E365615526.title: "&bCryomancecr Outfit"
-	quest.3145EBA8432E91DC.quest_desc: [
-		"&eThe integer gauge&r transfers integer (numerical) data through their connections. "
-		""
-		"Instead of a logic gate, it will have some mathematical operation gates (+, -, *), and will apply those operations with the inputs. "
-		""
-		"If connected to Factory Gauges, they will send the item amount of that type in the linked storage all the way to the integer gauge."
-		""
-		"&aExample:&r You have to factory gauge inputs (one for diamonds and one for emeralds), and you have 3 diamonds and 2 emeralds in your storage. "
-		""
-		"You can use the integer gauge to sum, subtract or multiply these two numbers to get an integer output (for example 3 + 2 = 5). "
-		""
-		"This can be directly sent to redstone links or logic gauges converting the number into a redstone signal.<br> NOTE: The subtract operation isn't really a subtract operation. Instead, it's a sum that gets then inverted (positive -> negative and viceversa)&r"
-	]
 	quest.3171F1AE14E3C1ED.quest_desc: [
 		"&6Stoves &rare a stylish and functional alternative to campfires. When combined with a &6Cooking Pot,&r they become an essential tool for preparing some of the most delicious meals in the game."
 		""
@@ -2045,6 +2032,8 @@
 	quest.34174F45D62D0D6E.quest_subtitle: "Craft any Iron Chest type."
 	quest.343AB719F81DFC63.quest_desc: ["This pupil is believed to have seen the ancient brewing recipes that were lost in time."]
 	quest.343AB719F81DFC63.quest_subtitle: " Craft it using the witch pupil"
+	quest.346B878CEC91C31E.quest_subtitle: "A new school of &asound"
+	quest.346B878CEC91C31E.title: "&a&lSchool of Sound"
 	quest.3481C6DF7EF96590.quest_subtitle: "Not repeatable"
 	quest.3488B3847D0D01DC.quest_subtitle: "Craft any Netherite Chest type."
 	quest.34AB7EB1F6BF5457.quest_desc: ["Move your paddle, and don't let the ball get past you&f&9"]
@@ -2767,17 +2756,6 @@
 		""
 		"You need a redstone signal to start the engine, you can use a Lever to start the engine or use an Analog Lever to start and decide how fast/slow the rotational power goes. "
 	]
-	quest.4538B3D27BC9E6C3.quest_desc: [
-		"&eThe comparator gauge&r converts integer data into redstone data, using a specific comparison operation. "
-		""
-		"By holding right-click, you can select a Value which will be stored into your gauge data. "
-		""
-		"By just right-clicking (without holding), you can instead open the menu to set up the comparison mode (=, !=, >, <, >=, <=). "
-		""
-		"The comparison mode will then be used to evaluate the result based on the input and the value."
-		""
-		"Let's say you input a value of 15, and the mode is =, it will be compared input = value, and if it's true, it will output a redstone signal"
-	]
 	quest.453F0E5926BA4AB1.quest_desc: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7739373308A83503\" } }"]
 	quest.453F0E5926BA4AB1.quest_subtitle: "This can be found in blue skies dimension"
 	quest.4552515C89DFAA7B.quest_desc: [
@@ -2810,19 +2788,6 @@
 		"A sheared lotus flower will not grow anymore and won't drop any &bbleachdew!&r"
 	]
 	quest.4626F4A23540DD3E.title: "Bleachdew and Lotus Flower"
-	quest.46519B1166B318F2.quest_desc: [
-		"Always wanted to give a present to a dear friend or a dear enemy soon to be? Wait no longer! Now you can do that with the &cWrapping Station&r and wrap some Tn-Flowers! Yeah I meant to say that."
-		""
-		"&cThe Wrapping Station&r can be configured to wrap a single Item or a Stack by clicking the cogwheel on the side on its menu. "
-		""
-		"There are different kinds of wrapping paper you can use to wrap your gift. "
-		""
-		"Simply place the item you want to give and then the wrapping paper of your choice, and wait a few seconds. Then grab the present and  give it to your best friend and watch them explode in happiness or… happy after… go spread some love!"
-		""
-		"&d@create_wrapper"
-	]
-	quest.46519B1166B318F2.quest_subtitle: "&bhohoh.o...hohoho..."
-	quest.46519B1166B318F2.title: "Create Wrapper"
 	quest.465B9A805BA57898.quest_subtitle: "Obtained from market with magic coins"
 	quest.466F43B18F0D1B7E.quest_desc: [
 		"You will need a special furnace to convert the block into an ingot: a &4Clibano Furnace&r from &6Forbidden Arcanus.&r"
@@ -3093,13 +3058,6 @@
 	quest.4D221F2C2507A130.quest_subtitle: "Obtained from market with magic coins"
 	quest.4D308AD544372410.quest_subtitle: "When used for Upgrade: &6+5% Lightning Spell Power"
 	quest.4D38017F83D30E13.quest_subtitle: "Damages attackers similar to the Thorns enchantment"
-	quest.4D5E1FD50E1F0F37.quest_desc: [
-		"&eThe logic gauge&r allows transferring redstone data through their connections. "
-		""
-		"Instead of having an item filter like the factory gauge, it lets you select between many Logic Gates (OR, AND, NAND, NOR, XOR, XNOR) and will use these gates to manage the inputs/outputs."
-		""
-		"&oExample: You have two redstone signals coming into the gauge, and your logic gate is set to \"AND\", it will only output redstone if ALL the inputs are on.&r"
-	]
 	quest.4D82E252D1E6B5B6.quest_subtitle: "Not repeatable"
 	quest.4DA92919147B3E18.quest_desc: [
 		"The &a&lBlaze Enchanter&r&r functions like an Enchanting Table. To activate you need to pump liquid experience into the Blaze Enchanter."
@@ -3210,22 +3168,6 @@
 		""
 		"Photographs can be stacked by right-clicking a Photograph or Stacked Photographs with another Photograph."
 	]
-	quest.4EE191C96F7DE687.quest_desc: [
-		"&aBefore posting, please check this list of known issues and possible workarounds.&r"
-		""
-		"-> Dropping Unique Simply Swords items into Refined Storage makes them unremovable."
-		""
-		"🛠 Workarounds:"
-		""
-		"If you're using RF Storage Disks:"
-		"Create an Interface block, enable Fuzzy Mode, and extract the weapon from there."
-		""
-		"If your RF system is connected to physical storage (e.g., Create Vaults):"
-		"Place a Funnel on the Vault and attach a Create Filter set to the specific sword."
-		"_____"
-	]
-	quest.4EE191C96F7DE687.quest_subtitle: "v1.4.1"
-	quest.4EE191C96F7DE687.title: "&l&cLIST OF KNOWN ISSUES (PLEASE READ!)&r&r"
 	quest.4F734FC470276106.quest_subtitle: "Applies a temporary haste effect after eating food"
 	quest.4FDAFBD64AA710A1.quest_subtitle: "Increases experience dropped by mobs"
 	quest.4FE2B38F21E965E8.quest_subtitle: "x3"
@@ -3741,7 +3683,6 @@
 		""
 		"AE2's wrench comes in both certus and nether quartz flavours."
 	]
-	quest.5D52508105645DD0.quest_subtitle: "Obtained from the Mysterious Orb"
 	quest.5D6271AF25237B2E.quest_desc: [
 		"When equipped, press right-click to use a weapon. "
 		""
@@ -4761,8 +4702,6 @@
 		"Faster and more flexible than Importer/Exporter, especially useful for automation setups."
 	]
 	quest.73ABE2ADC83069D8.title: "&eSystem Input and Output"
-	quest.73BD8A69D47D4C98.quest_subtitle: "A new school of &asound"
-	quest.73BD8A69D47D4C98.title: "&a&lSchool of Sound"
 	quest.73D579268007A8C7.quest_subtitle: "You can find corundum in caves or by trading with Ribbits."
 	quest.73E2BBF18A97E57F.quest_desc: [
 		"The &6&lSpeedometer&r&r measures the rotational speed of connected machines or in the network."
@@ -4805,7 +4744,7 @@
 	quest.747A045278FCCEE3.quest_desc: [
 		"&6The Portable Drill&r is a powerful tool capable of breaking most known blocks at an accelerated mining speed. "
 		""
-		"&l&eIt can only be enchanted with Digging, which enables it to mine in a 3×3 area.&r&r"
+		"&l&eIt can be enchanted with Digging, which enables it to mine in a 3×3 area or with Chunk Eater, which is vein mining.&r&r"
 		""
 		"The drill requires fuel and water to operate. "
 		""
@@ -4852,15 +4791,6 @@
 	quest.76391D7DFB304BC7.title: "Spell resistance"
 	quest.763F1FB0C55F702F.quest_desc: ["It has seen many warriors drown into the depths of the sea"]
 	quest.763F1FB0C55F702F.quest_subtitle: "Get it by Killing Elder Guardian"
-	quest.765618B293CCCFB2.quest_desc: [
-		"&eThe counter gauge&r can convert redstone inputs in both integer and another redstone data, let's see. "
-		""
-		"Each time a redstone pulse is sent to the gauge, the counter will increase by one. "
-		""
-		"By holding right-click, you can change the threshold, which will define the maximum number your count can reach. "
-		""
-		"Once the threshold is reached, redstone output will be sent. Another redstone pulse will reset the counter to 0."
-	]
 	quest.76D595EF8B7A90E1.title: "&aAdvanced Archevoker Outfit"
 	quest.773C584834762704.quest_desc: [
 		"Give your train some extra detail with 36 new decorative and utility blocks. Make your trains more stylish and take them to the next level."

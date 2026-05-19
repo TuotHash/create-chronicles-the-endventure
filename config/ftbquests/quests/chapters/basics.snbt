@@ -618,7 +618,7 @@
 			dependencies: ["1F6BC8C2A5B8F9B2"]
 			icon: {
 				components: {
-					"ftbquests:icon": "kubejs:textures/font/icons/warn.png"
+					"ftbquests:icon": "fancymenu:textures/contextmenu/icons/talk.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -1655,8 +1655,11 @@
 					count: 5
 					id: "63CFA1C1309C051C"
 					item: {
+						components: {
+							"ftbquests:missing_item": "ubesdelight:cookie_ginger"
+						}
 						count: 1
-						id: "ubesdelight:cookie_ginger"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -2953,22 +2956,6 @@
 			y: 14.5d
 		}
 		{
-			dependencies: ["5525E70F7FBDBD92"]
-			icon: {
-				components: {
-					"ftbquests:icon": "ftblibrary:icons/bug"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "4EE191C96F7DE687"
-			tasks: [{
-				id: "0603A97DE4567708"
-				type: "checkmark"
-			}]
-			x: -34.5d
-			y: 14.5d
-		}
-		{
 			dependencies: ["06267D7C266DE215"]
 			id: "6D7443087DE01DD9"
 			rewards: [{
@@ -3073,10 +3060,11 @@
 			dependencies: ["19EF374996946C2D"]
 			id: "2F87D4F90CFCED84"
 			rewards: [{
-				id: "3BE9AB8A6A0D68E4"
+				count: 2
+				id: "2A3B6A0BC916342C"
 				item: {
 					count: 1
-					id: "starcatcher:award_one_fish"
+					id: "magic_coins:silver_coin"
 				}
 				type: "item"
 			}]
@@ -3092,10 +3080,11 @@
 			dependencies: ["19EF374996946C2D"]
 			id: "264512C08514EC4E"
 			rewards: [{
-				id: "616B93F248AB39BE"
+				count: 2
+				id: "07DE71CC831F04D7"
 				item: {
 					count: 1
-					id: "starcatcher:award_one_fish"
+					id: "magic_coins:silver_coin"
 				}
 				type: "item"
 			}]
@@ -3111,10 +3100,11 @@
 			dependencies: ["19EF374996946C2D"]
 			id: "5BEA7D12BE61A4AC"
 			rewards: [{
-				id: "2D9F2DCE821780A8"
+				count: 2
+				id: "4CDED1685190DD04"
 				item: {
 					count: 1
-					id: "starcatcher:award_one_fish"
+					id: "magic_coins:silver_coin"
 				}
 				type: "item"
 			}]
@@ -3130,10 +3120,11 @@
 			dependencies: ["19EF374996946C2D"]
 			id: "0996F6AD6839B221"
 			rewards: [{
-				id: "6AC4127B57EAE71B"
+				count: 2
+				id: "53D241FA46C28262"
 				item: {
 					count: 1
-					id: "starcatcher:award_one_fish"
+					id: "magic_coins:silver_coin"
 				}
 				type: "item"
 			}]
@@ -3144,36 +3135,6 @@
 			}]
 			x: -10.5d
 			y: 23.0d
-		}
-		{
-			dependencies: ["19EF374996946C2D"]
-			id: "451BA38DFA254842"
-			rewards: [
-				{
-					id: "443803BB53A14D26"
-					item: {
-						count: 1
-						id: "kubejs:heart_container"
-					}
-					type: "item"
-				}
-				{
-					count: 30
-					id: "673FAF912FE2CEB3"
-					item: {
-						count: 1
-						id: "magic_coins:silver_coin"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "5C3E37A53EC3E7D4"
-				item: { count: 1, id: "starcatcher:trophy_bronze" }
-				type: "item"
-			}]
-			x: -13.0d
-			y: 24.5d
 		}
 		{
 			dependencies: ["19EF374996946C2D"]
@@ -3198,10 +3159,10 @@
 			]
 			tasks: [{
 				id: "78719CFCBDD18EE4"
-				item: { count: 1, id: "starcatcher:trophy_silver" }
+				item: { count: 1, id: "starcatcher:trophy_diamond" }
 				type: "item"
 			}]
-			x: -12.0d
+			x: -12.5d
 			y: 24.5d
 		}
 		{
@@ -3231,8 +3192,35 @@
 				item: { count: 1, id: "starcatcher:trophy_gold" }
 				type: "item"
 			}]
-			x: -11.0d
+			x: -11.5d
 			y: 24.5d
+		}
+		{
+			dependencies: ["64B6D3C0ACA9473F"]
+			id: "50B714FBF8D55F1B"
+			rewards: [
+				{
+					count: 10
+					id: "7D5874C3AE47E022"
+					item: {
+						count: 1
+						id: "apotheosis:gem_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "5C17CA39E180838C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "085B1AF64E74339F"
+				item: { count: 1, id: "apotheosis:gem_case" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 21.5d
 		}
 	]
 }

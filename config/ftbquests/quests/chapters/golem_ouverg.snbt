@@ -7,7 +7,7 @@
 		id: "golemoverhaul:clay_golem_statue"
 	}
 	id: "5A695917A1E23476"
-	order_index: 1
+	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [

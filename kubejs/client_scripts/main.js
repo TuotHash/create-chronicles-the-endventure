@@ -133,6 +133,7 @@ RecipeViewerEvents.addInformation('item', item =>{
   //34 total
   item.add("hazennstuff:overgrown_bone", "Drops from Bogged Zombies")
   item.add("hazennstuff:excalibur_fragment", "Drops from Dead King")
+  item.add("hazennstuff:pendant_of_harmony", "Found in end cities")
 
   item.add("garnished:vermilion_kelp", "Vermilion kelp be found in the Cold Ocean or Frozen Ocean")
   item.add("garnished:bok_choy", "Bok Choy can be found in Jungle Temples")

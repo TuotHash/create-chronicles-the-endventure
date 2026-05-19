@@ -103,7 +103,11 @@ const removeRecipesById = [
 
   'createaddition:charging/electrify_gold_ingot',
   'catburger:cat_burger',
-  'cataclysm:belt_of_beginner'
+  'cataclysm:belt_of_beginner',
+  'apotheosis:gem_case',
+
+  "createbigcannons:mixing/alloy_steel",
+  "create_dragons_plus:freezing/breeze_rod_from_blaze_rod"
 ];
 
 // === REMOVE BY MOD ID ===

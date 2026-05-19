@@ -16,6 +16,10 @@ ServerEvents.recipes(event => {
 
   event.replaceInput({}, 'refurbished_furniture:dough', 'create:dough')
   event.replaceInput({}, 'farmersdelight:wheat_dough', 'create:dough')
+  event.replaceInput({}, 'hazennstuff:steel_ingot', 'createbigcannons:steel_ingot')
+  event.replaceOutput({}, 'hazennstuff:steel_ingot', 'createbigcannons:steel_ingot')
+  event.remove({ input: 'hazennstuff:steel_nugget' })
+  event.remove({ output: 'hazennstuff:steel_nugget' })
 
   event.replaceInput({id:'apotheosis:salvaging_table'}, 'apotheosis:gem_dust', 'minecraft:diamond_block')
 
@@ -46,6 +50,9 @@ ServerEvents.recipes(event => {
   event.replaceInput({id:'another_furniture:oak_table'}, 'minecraft:oak_planks', 'minecraft:oak_slab')
   event.replaceInput({id:'handcrafted:wood_plate'}, '#minecraft:wooden_slabs', '#minecraft:wooden_pressure_plates')
 
+  // Big Cannons Stuff
+
+  
   event.smoking('minecraft:andesite', 'minecraft:gravel').cookingTime(6000)
   event.smoking('minecraft:leather', 'minecraft:rotten_flesh').cookingTime(900)
 
@@ -108,7 +115,7 @@ ServerEvents.recipes(event => {
     ]
   })
 
-  event.custom({
+/*   event.custom({
     "type": "create_enchantment_industry:grinding",
     "ingredients": [
       {
@@ -126,9 +133,9 @@ ServerEvents.recipes(event => {
       }
     ]
   })
+ */
 
-
-  event.custom({
+/*   event.custom({
     "type": "createaddition:charging",
     "energy": 4000,
     "ingredients": [
@@ -142,7 +149,7 @@ ServerEvents.recipes(event => {
         "id": "createmechanisms:bronze"
       }
     ]
-  })
+  }) */
 
   event.custom({
     "type": "createaddition:charging",

@@ -78,6 +78,7 @@ global.REMOVE_ITEMS = [
   'apothic_enchanting:flimsy_ender_lead',
   'apothic_enchanting:ender_lead',
   'apothic_enchanting:occult_ender_lead',
+   'apotheosis:ender_gem_case',
 
   'gamediscs:redstone_circuit', 
   'gamediscs:processor', 
@@ -112,27 +113,21 @@ global.REMOVE_ITEMS = [
   'createmechanisms:diamond_energy_mechanism',
   'createmechanisms:enderiam_energy_mechanism',
   'createmechanisms:random_placer',
+  'createmechanisms:bronze',
   'createmechanisms:energy_cell',
   'createmechanisms:enderiam_cell',
 
   // no recipes - no animations
-  "hazennstuff:provocation_dormant",
+   "hazennstuff:provocation_dormant",
   "hazennstuff:umbranova_dormant",
   "hazennstuff:devastator_dormant",
   "hazennstuff:ionic_splitter_dormant",
   "hazennstuff:ionic_splitter_t1",
   "hazennstuff:ionic_splitter_t2",
   "hazennstuff:ionic_splitter_t3",
-  'hazennstuff:enderconic_scepter',
-  'hazennstuff:divine_scepter',
-  'hazennstuff:insania_aeternus',
-  'hazennstuff:grimoire_staff',
-  'hazennstuff:blossom_of_the_enchantress',
-  'hazennstuff:ascended_arbitrium_robes_helmet',
-  'hazennstuff:ascended_arbitrium_robes_chestplate',
-  'hazennstuff:ascended_arbitrium_robes_leggings',
-  'hazennstuff:ascended_arbitrium_robes_boots',
-
+  "hazennstuff:steel_ingot",
+  "hazennstuff:steel_nugget"
+ 
 
 
 ]

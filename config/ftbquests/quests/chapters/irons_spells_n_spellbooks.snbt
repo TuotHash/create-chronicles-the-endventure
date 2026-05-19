@@ -450,8 +450,8 @@
 					type: "item"
 				}
 			]
-			x: -20.0d
-			y: 7.5d
+			x: -21.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["704435187B4BD245"]
@@ -1068,8 +1068,8 @@
 				item: { count: 1, id: "irons_spellbooks:protection_upgrade_orb" }
 				type: "item"
 			}]
-			x: -20.0d
-			y: 8.5d
+			x: -21.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["53C9B66BEC667ED0"]
@@ -3157,6 +3157,78 @@
 			}]
 			x: -8.0d
 			y: -5.5d
+		}
+		{
+			dependencies: ["704435187B4BD245"]
+			id: "346B878CEC91C31E"
+			tasks: [{
+				id: "00AC1B0C7A52110D"
+				item: { count: 1, id: "tunes_n_tomes:melody_rune" }
+				type: "item"
+			}]
+			x: -20.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["346B878CEC91C31E"]
+			id: "0438910DB032E0A2"
+			tasks: [
+				{
+					id: "34438FE188514479"
+					item: { count: 1, id: "tunes_n_tomes:bard_helmet" }
+					type: "item"
+				}
+				{
+					id: "72A1A62F4A45025C"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "tunes_n_tomes:bard_chestplate" }
+					type: "item"
+				}
+				{
+					id: "794DE4EDD88992FB"
+					item: { count: 1, id: "tunes_n_tomes:bard_leggings" }
+					type: "item"
+				}
+				{
+					id: "198FA9ECC20E801D"
+					item: { count: 1, id: "tunes_n_tomes:bard_boots" }
+					type: "item"
+				}
+			]
+			x: -21.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["346B878CEC91C31E"]
+			id: "64CBA63B3E5E0ABE"
+			tasks: [{
+				id: "11ED212E55AE208F"
+				item: { count: 1, id: "tunes_n_tomes:bard_harp" }
+				type: "item"
+			}]
+			x: -20.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["346B878CEC91C31E"]
+			id: "5B7B1BA3D9C2EAB8"
+			tasks: [{
+				id: "140B51B291208A34"
+				item: { count: 1, id: "tunes_n_tomes:melody_upgrade_orb" }
+				type: "item"
+			}]
+			x: -19.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["346B878CEC91C31E"]
+			id: "2C49CC051785113F"
+			tasks: [{
+				id: "645E811A137875AD"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "tunes_n_tomes:melody_spell_book" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: 9.5d
 		}
 	]
 }

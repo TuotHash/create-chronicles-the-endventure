@@ -20,7 +20,7 @@
     },
     {
       "ingredient": {
-        "item": "hazennstuff:steel_ingot"
+        "item": "createbigcannons:steel_ingot"
       },
       "count": 1,
       "consume": true

@@ -32,3 +32,9 @@
 	# Default: 20
 	# Range: 0 ~ 20
 	saturationRestorationFromTotem = 20
+	#Use percentage-based health restoration (mutually exclusive with fixed value mode)
+	usePercentageHealthRestoration = true
+	#Health restoration percentage based on max health (only effective when percentage mode is enabled)
+	# Default: 100.0
+	# Range: 0.0 ~ 100.0
+	percentageHealthRestoration = 100.0
